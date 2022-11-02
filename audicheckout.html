@@ -1,0 +1,186 @@
+<html>
+<head>
+<title> audi model check out</title>
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+.slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="benz.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="benzsteering.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="benzseats.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4/ 5</div>
+  <img src="benztire.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5/ 5</div>
+  <img src="benztop.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  
+  
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<font size="4">
+<p>
+<u>Variants</u>:<br><br>
+
+-->The Audi Q5 facelift is available in two variants including Premium Plus and Technology.<br><br>
+
+<u>Market introduction</u>:<br><br>
+
+-->The Audi Q5 facelift was launched in India on 23 November, 2021.<br><br>
+
+<u>Engine and specification</u>:<br><br>
+
+-->The facelifted Audi Q5 is propelled by a 2.0-litre, four-cylinder, TFSI petrol engine that produces 245bhp and 370Nm of torque. Paired to a seven-speed automatic unit, power is sent to all four wheels via the Quattro all-wheel-drive system.<br><br>
+
+<u>Exterior design</u>:<br><br>
+
+-->The 2021 Audi Q5 gets a new single-frame grille, new LED headlamps, revised front and rear bumpers, tweaked LED tail lights, and a set of new 19-inch alloy wheels. <br><br>
+
+<u>Interior and features</u>:<br><br>
+
+-->Inside, the updated Audi Q5 facelift receives features in the form of eight airbags, Audi Virtual Cockpit Plus (fully digital instrument console), Audi Park Assist, a 10.1-inch MMI Plus infotainment system with Apple CarPlay and Android Auto, a panoramic sunroof, wireless charger, cruise control, ambient lighting, electrically adjustable front seats, a new steering wheel, and an electronically-operated tail-gate.<br><br>
+
+
+<u>Colours</u>:<br><br>
+
+-->The new Audi Q5 is offered in five colours including Navarra Blue Metallic, Ibis White Solid, Floret Silver Metallic, Mythos Black Metallic, and Manhattan Gray Metallic.<br><br>
+
+<u>Seating capacity</u>:<br><br>
+
+-->The Audi Q5 facelift has a seating capacity of five occupants.<br><br>
+<u>Mileage</u>: 13.47kmpl<br><br><br>
+<u>Seating capacity</u>: 5<br><br><br>
+<u>Ex-showroom price</u>: Starts from Rs 59.21 lakhs<br><br><br>
+ </body>
+ <center>
+ <a href="popularvehicles.html">
+<input type="button" name="n1" value=" back to vehicles"></a>
+</center>
+ </html>
+ 

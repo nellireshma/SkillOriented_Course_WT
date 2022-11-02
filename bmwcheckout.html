@@ -1,0 +1,183 @@
+<html>
+<head>
+<title> bmw-x3 model check out</title>
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+.slideshow {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="bmw-x3.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="bmwsteering.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="bmwseats.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4/ 5</div>
+  <img src="bmwtire.jpg" style="width:100%">
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">5/ 5</div>
+  <img src="bmwback.jpg" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  
+  
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<font size="4">
+<p>
+<u>Variants</u>:<br><br><br>
+
+-->The BMW X3 facelift is available in two variants including 30i SportX Plus and 30i M Sport.<br><br><br>
+
+<u>Market introduction</u>:<br><br><br>
+
+-->The X3 facelift was launched in India on 20 January, 2022.<br><br>
+
+<u>Engine and specification</u>:<br><br>
+
+-->Powering the BMW X3 facelift is a 2.0-litre, four-cylinder, turbocharged petrol that produces 252bhp and 350Nm of torque, paired with an eight-speed automatic transmission.<br><br>
+
+<u>Exterior design</u>:<br><br>
+
+-->In terms of design, the new BMW X3 facelift now gets a set of fully adaptive LED headlamps, a tweaked kidney grille, revised front and rear bumpers, new alloy wheels, and a set of refreshed LED tail lights.<br><br>
+
+<u>Interior and features</u>:<br><br>
+
+-->Inside, the 2022 BMW X3 now comes with features such as a freestanding touchscreen infotainment system, a 12.3-inch fully-digital instrument cluster, a panoramic sunroof, a 360-degree camera, park assist function, and a Harman Kardon-sourced surround sound music system.<br><br>
+
+<u>Colours</u>:
+
+-->The BMW X3 is offered in six colours that include Metallic Mineral White, Metallic Sophisto Grey Brilliant Effect, Metallic Black Sapphire, Metallic Phytonic Blue, Metallic M Brooklyn Grey, and Metallic M Carbon Black.
+
+-->Engine displacement: 1998cc<br><br><br>
+-->Mileage: 13.17kmpl<br><br><br>
+-->Seating capacity: 5<br><br><br>
+-->Ex-showroom price: Starts from Rs.59.90 lakhs<br><br><br>
+ </body>
+ <center>
+ <a href="popularvehicles.html">
+<input type="button" name="n1" value=" back to vehicles"></a>
+</center>
+ </html>
+ 
